@@ -1,7 +1,7 @@
 <?php
 
 
-namespace yii\dataProviderIterator;
+namespace juffin_halli\dataProviderIterator;
 
 
 use yii\data\BaseDataProvider;
