@@ -1,0 +1,21 @@
+{
+    "name": "juffin_halli/yii2-dataProviderIterator",
+    "description": "Yii2 Port of Yii 1.1 CDataProviderIterator",
+    "keywords": ["yii", "extension", "widget", "dataProviderIterator"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ivan Poponin",
+            "email": "juf.halli@gmail.com",
+        }
+    ],
+    "require" : {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "juffin_halli\\yii2-dataProviderIterator\\": ""
+        }
+    }
+}
