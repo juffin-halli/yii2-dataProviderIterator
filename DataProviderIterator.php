@@ -61,6 +61,7 @@ class DataProviderIterator implements \Iterator, \Countable
     protected function loadPage()
     {
         $this->getDataProvider()->getPagination()->setPage($this->getCurrentPage());
+        $this->getDataProvider()->prepare(true);
         return $this->_items=$this->getDataProvider()->getModels();
     }
 
